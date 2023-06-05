@@ -12,7 +12,7 @@ pub fn factorial(num: u64) -> u64 {
     // - recursion
     // Execute `rustlings hint iterators4` for hints.
     (1..num).fold(1, |acc, n| {
-        return acc * (n + 1);
+        acc * (n + 1)
     })
 }
 
